@@ -42,16 +42,41 @@
     list-style: none;
 }
 .main-menu-left ul li{
+    border-bottom: 10px solid var(--white);
     margin: 0 10px;
+    color: var(--brown);
 }
 .main-menu-left ul li:first-child{
-    border-bottom: 2px solid var(--brown);
+    border-bottom: 10px solid var(--brown);
 }
 .main-menu-left ul li:hover{
-    border-bottom: 2px solid var(--gray);
+    border-bottom: 10px solid var(--gray);
     color: var(--gray);
     cursor: pointer;
 }
-.main-menu-left ul li:link{
-    text-decoration: var(--brown);
+
+/* Não adiciona o sublinhado nas imagens do insta e whats */
+.main-menu-left ul li:nth-last-child(2){
+    font-size: 40px;
+    border-bottom: none;
+    margin-left: 50px;
+}
+.main-menu-left ul li:nth-last-child(1){
+    font-size: 40px;
+    border-bottom: none;
+    margin-left: 20px;
+}
+
+.main-menu-left ul li:nth-last-child(2):hover{
+    color: var(--gray);
+    cursor: pointer;
+}
+.main-menu-left ul li:nth-last-child(1):hover{
+    color: var(--gray);
+    cursor: pointer;
+}
+/* --------------------------------------- */
+
+.main-menu-left ul li a{
+    color: inherit;
 }
