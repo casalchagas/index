@@ -1,31 +1,33 @@
 :root{
     --white: #ffffff;
     --rose: #E9DCD3;
-    --brown: #CF946A;
+    --brown: rgb(207, 148, 106);
     --dark: #303030;
     --gray: #9EA294;
 }
 
-
 .carrossel{
     display: flex;
     justify-content: center;
-
-    background-color: var(--brown);
+    height: 510px;
+    background: linear-gradient(to right, var(--brown), var(--rose), var(--brown));
 }
 .carousel, .slide{
-    width: 900px;
+    width: 800px;
+    height: 480px;
+
+    margin-top: 15px;
 }
 
 .carousel-inner{
     width: 100%;
+    height: 480px;    
 }
 
-.carousel-item{
-    width: 100%;
+.carousel-item {
+    height: 480px;
 }
-
 .carousel-caption, .d-none, .d-md-block{
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.5);
 }
 

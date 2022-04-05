@@ -13,4 +13,123 @@
 
 body{
     background-color: var(--white);
+    background-image:url('../images/casal2.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
+
+
+/* FIXED CONTATOS */
+
+.fixed{
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.fixed-contato{
+    background-color: var(--brown);
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button-contato{
+    width: 350px;
+    height: 50px;
+    border: 2px solid var(--dark);
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button-contato:hover{
+    border: 2px solid var(--rose);
+    color: var(--rose);
+    background-color: var(--dark);
+}
+
+.fixed-portifolio{
+    width: 100%;
+    height: inherit;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    margin-left: 50px;
+}
+.button-portifolio{
+    width: 350px;
+    height: 50px;
+    border: 2px solid var(--dark);
+    background-color: var(--gray);
+    color: var(--dark);
+    border-radius: 25px;
+
+margin-top: 30px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button-portifolio:hover{
+    border: 2px solid var(--gray);
+    color: var(--gray);
+    background-color: var(--dark);
+}
+
+/* PORTIFÓLIO */
+.blog{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(to right, var(--brown), var(--rose), var(--brown));
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blog-dados{
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blog-dados h3, .blog-dados p{
+    width: 90%;
+}
+
+.data{
+    color: var(--dark);
+    font-weight: bolder;
+}
+
+.blog-button{
+    width: 10px;
+    height: 50px;
+    border: 2px solid var(--brown);
+}
+
+.blog-image{
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-image img{
+    width: 90%;
+}
+
