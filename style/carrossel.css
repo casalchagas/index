@@ -10,24 +10,38 @@
     display: flex;
     justify-content: center;
     height: 510px;
-    background: linear-gradient(to right, var(--brown), var(--rose), var(--brown));
+    background: linear-gradient(to bottom, var(--white), var(--rose), var(--brown));
 }
 .carousel, .slide{
     width: 800px;
     height: 480px;
 
     margin-top: 15px;
+    
 }
 
 .carousel-inner{
     width: 100%;
-    height: 480px;    
+    height: 480px;   
+    border-radius: 15px; 
 }
 
 .carousel-item {
     height: 480px;
+    
 }
 .carousel-caption, .d-none, .d-md-block{
     background: rgba(0, 0, 0, 0.5);
+}
+.carousel-caption h5{
+    font-weight: bolder;
+}
+
+/* RODAPÉ */
+
+footer{
+    height: 50px;
+
+    background-color: var(--white);
 }
 
